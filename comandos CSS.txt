@@ -1,0 +1,121 @@
+ tipografia
+handwriting- fonte q simula escrita a mão
+display- fontes q não respeitem anatomia, fonte comemorativa
+
+fontes
+padrão navegador-Times new roman
+
+/////
+@-Significa regra para o arquivo
+
+@font-face: colocar fonts específicas
+(font-family:(); src:url(nome do arquivo da font) format(opentype, etc. varia de acordo com a font)
+
+@import url(o link do q quer colar, melhor pra usar font sem precisar ter no pc.)
+
+@charset "UTF-8"; :para não ter problema nenhum com navegador
+/////
+
+
+height: para definir altura de CSS
+width: para definir largura de CSS
+
+	//*sobre fonts e texto*//
+font-family:familia da font
+font-size:tamanho da fonte
+font-style:botar em italico, etc.
+font-weight: definir peso da fonte(negrito, etc.)
+line-height: definir espaçamento entre as linhas
+font: colocar todas as caracteristicas acima
+(na ordem font-style -> font-weight -> font-size -> font-family)
+
+	//*alinhamento*//
+text-align: alinhamento de horizontal(à preferencia)
+vertical-aling:alinhamento vertical(top,middle, bottom)
+text-indent:margem de inicio de frase(em px)
+
+
+formatação id="nome de identificação pro que quer":serve pra separar na hora de fazer css.
+formatação#+nome:para colocar o identificador na folha css
+
+em HTML é id. Em CSS é #(obs:unico)
+em HTML é class. EM CSS é .
+(obs:multiplos)
+<span>conteudo</span>:seletor generico para colocar class e definir estilo
+
+
+	//*BACKGROUND*//
+background-postion:ancoragem, posição da ancora na imagem
+background-size: tamanho da imagem(cover melhor escolha)
+background-attachment: esqueci
+
+background-imagem: para gradiente
+(to bottom(baixo),top(cima),left,right)
+
+border: criar borda
+padding: afastar a borda
+outline: traçado
+border-radius:para arredondar borda(em px)
+
+padding ordem:top, right, bottom, left(cima, direta, baixo, esquerda)
+outline:espaço entre a borda e margem
+
+box-shadow: fazer sombra(deslocamento horizontal,vertical, espalhamento e cor)
+
+border-radius:arredondamento de borda(pode mexer cada borda individualmente)
+
+line-height: altura da linha
+
+	///* SOBRE TABELAS*///
+list-style-position:posição das listas(obs: columns: para definir colunas na lista)
+efeito zebrado-> :nth-child()
+para fazer a cabeça da tabela seguir, ficar fixo:
+			position: sticky;
+            		top: -1px;
+
+HIERARQUIA DE TABELAS (simples)
+            TABLE=tabela
+		CAPTION=conteudo ACIMA da tabela
+                TABLE ROLL=linha da tabela
+                    TABLE HEADER=cabeçalho de tabela
+                        TABLEA DATA= dado de tabela
+
+                        tr:linha
+                        td:os dados das linhas
+			th:titulo da linha
+
+
+		//* EXPANSÃO DE TABELAS*//
+		colspan="n" ->expandir 1 elemento para mais de uma coluna
+		rowspan="n" ->expandir 1 elemento para mais de uma linha
+
+		//* PARA TABELAS GRANDES NÃO DAR ROLAGEM LATERAL*//
+		no style dele overflow-x:auto;
+
+
+
+	///* SHORTHAND *///
+	background: color > imagem > position > repeat > [size] > attachment
+	obs:na shorthand [size] ainda não funciona
+
+:root - configurar variaves
+
+///* PARA CENTRALIZAR VIDEOS*///
+	coloque uma classe > iframe
+	defina
+	position:normalmente absolute;
+	top:#;
+	bottom:#;
+	width:#;
+	height:#;
+	(obs:use valores em porcentagens para ficar por igual)
+
+SELETORES PERSONALIZADOS
+*  = seletor global
+#  = id
+.  = class
+:  = colocar pseudo classe
+:: = colocar pseudo elemento
+>  = filho de algum elemento
+
+	MEDIÇÃO 'vh'(toda parte branca q aparece no navegador)

@@ -1,0 +1,101 @@
+html-elementos da pagina
+css-estilo da pagina, personalização
+javascript-animação, iteração da pagina
+
+header- cabeçalho
+
+main- conteudo principal
+
+nav- navegação
+
+section-seções
+
+article- artigos
+
+aside- conteudo relativo ao artigo
+
+footer- rodapé
+
+h1- titulo principal
+
+h2-subtitulos(vai diminuindo até 6)
+
+p- parágrafo
+
+hr- linha horizontal
+
+br-quebra de texto
+
+<!--comentario --> é para comentarios
+
+&lt- para aparecer o simbolo '<'
+
+&gt- para aparecer o simbolo '>'
+
+&#x- codigo para emoji(pega na emojipedia)
+
+em-italico 
+
+strong-negrito
+
+small- letras pequenas
+
+link(opção favicon)-adicionar icone na aba 
+
+del- texto riscado(não considerar mas deixar ser lido
+
+ins- texto sublinhado
+
+sup- para transformar um elemento elevado "²" exemplo
+
+sub- para fazer o inverso de sup
+
+code- fazer todas as letras ocupar o mesmo espaço
+
+q- colocar aspas(CITAÇÃO)
+
+abbr- mostrar a palavra toda de abreviações
+
+bdo-texto invertido(inutil mas pode precisar)
+
+ol(type para alterar forma de amostra)-ordenade list(lista ordenada)
+
+li- list item(item da lista)
+ex:
+ol
+  li>acordar
+  li>bla bla
+/ol
+
+ul-lista q não mostra numero, mostra por bolinha, etc. Mesmo do "ol"
+
+dl-lista de definições
+
+dt-termo a definir
+
+dd- definição dele
+
+para abrir link em nova aba
+a hraf"link" target="_blank" rel="external"
+a href ../ - para selecionar arquivos fora da pasta
+obs:se precisa voltar mais pastas só continuar colocando ../../
+
+
+<picture>
+
+source media="(max-width:)" srcset=(arquivo de imagem) type="image/png(indicar pasta e tipo de arquivo)" - para definir alteração do tamanho da imagem conforme muda a forma de acesso(pc, celular. etc.)
+(obs: para funcionar tem de mudar a resolução das imagens)
+
+</picture>(se não colocar em marcador não funciona)
+
+
+source src - para audio e o mesmo para video
+
+width-largura
+heigth-altura
+
+
+
+
+colocar a tag "style" junto da formatação e alterar oq quer
+
