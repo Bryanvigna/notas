@@ -66,14 +66,14 @@ border-radius:arredondamento de borda(pode mexer cada borda individualmente)
 
 line-height: altura da linha
 
-	///* SOBRE TABELAS*///
+		///* SOBRE TABELAS*///
 list-style-position:posição das listas(obs: columns: para definir colunas na lista)
 efeito zebrado-> :nth-child()
 para fazer a cabeça da tabela seguir, ficar fixo:
 			position: sticky;
             		top: -1px;
 
-HIERARQUIA DE TABELAS (simples)
+		///*HIERARQUIA DE TABELAS (simples)*///
             TABLE=tabela
 		CAPTION=conteudo ACIMA da tabela
                 TABLE ROLL=linha da tabela
