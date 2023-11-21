@@ -98,6 +98,10 @@ para fazer a cabeça da tabela seguir, ficar fixo:
 	background: color > imagem > position > repeat > [size] > attachment
 	obs:na shorthand [size] ainda não funciona
 
+	///*segurança de iframe*///
+	não permitir entrada de dados: sandbox="sandbox"
+	não permitir coleta de dados de navegação:referrerpolicy="no-referrer"
+
 :root - configurar variaves
 
 ///* PARA CENTRALIZAR VIDEOS*///
