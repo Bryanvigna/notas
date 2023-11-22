@@ -95,7 +95,7 @@ width-largura
 heigth-altura
 
 
+<form>- para utilizar criar formulários
+obs:(method="POST") tirar os dados da barra de busca mas dá para ver no header do inspecionar
 
-
-colocar a tag "style" junto da formatação e alterar oq quer
-
+<label>- para linkar um elemento a sua referente caixa de texto
