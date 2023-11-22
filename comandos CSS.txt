@@ -123,3 +123,5 @@ SELETORES PERSONALIZADOS
 >  = filho de algum elemento
 
 	MEDIÇÃO 'vh'(toda parte branca q aparece no navegador)
+
+aprender https para proteção de dados
