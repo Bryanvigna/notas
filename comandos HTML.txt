@@ -99,3 +99,7 @@ heigth-altura
 obs:(method="POST") tirar os dados da barra de busca mas dá para ver no header do inspecionar
 
 <label>- para linkar um elemento a sua referente caixa de texto
+
+autocomplete: currente-password(para salvar senha DE LOGIN),username(para salvar nome DE LOGIN)
+
+aprender https para proteção de dados
