@@ -102,4 +102,21 @@ obs:(method="POST") tirar os dados da barra de busca mas dá para ver no header 
 
 autocomplete: currente-password(para salvar senha DE LOGIN),username(para salvar nome DE LOGIN)
 
+		<input>
+	obs: 'required' para campos obrigatórios
+
+file:envie de arquivos
+range:definir nivel
+color:definir cor
+checkbox:caixa de selação
+radio:caixa de seleção única(obs:colocar mesmo name e id difente)
+tel:numero de celular
+email: email
+number: numeros inteiros(obs:colocar step=0.1 para ter todos os decimais)
+month:mês
+date:data
+password:senha
+
+
+
 aprender https para proteção de dados
