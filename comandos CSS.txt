@@ -102,6 +102,13 @@ para fazer a cabeça da tabela seguir, ficar fixo:
 	não permitir entrada de dados: sandbox="sandbox"
 	não permitir coleta de dados de navegação:referrerpolicy="no-referrer"
 
+	///* Media Query*///
+	media query=media type + media features
+	media type=tipo de media
+	media features= caracteristica de media
+	media retrato= portrait
+	media paisagem= landscape
+
 :root - configurar variaves
 
 ///* PARA CENTRALIZAR VIDEOS*///
