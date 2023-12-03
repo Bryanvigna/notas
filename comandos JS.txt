@@ -1,0 +1,79 @@
+bibliofrafia JS
+JavaScript- o guia definitivo
+JavaScript- guia do programador
+
+guia de referencia da mozilla ou ecma
+
+	//*DATA TYPES*//
+NUMBER
+	-infinty
+	-NaN
+
+STRING
+
+BOOLEAN
+
+NULL
+
+UNDEFINED
+
+OBJECT
+	-Array
+
+FUNCTION
+	
+	//*SINAIS OPERADORES*//
+=	atribui algo
++	soma normal
+-	subtração normal
+*	multiplicação normal
+/	divisão real(normal)
+%	divisão inteira(resto da divisão)
+**	Elevado ao quadrado
+
+	//*OPERADORES LÓGICOS*//
+!	negação
+&&	conjunção(e)
+||	disjunção(ou)
+ordem de execução dos operadores:
+1ª:!
+2ª:&&
+3ª:||
+
+	//*RELACIONAIS*//
+>	maior que
+<	menor que
+>=	maior ou igual
+<=	menor ou igual
+==	igual em grandeza
+===	igual restrito(igual em number, string, etc.)
+!=	diferente em grandeza
+!==	diferente restrito(diferente em number, string, etc.)
+(obs: respondidos em valor booleano (true/false))
+
+	//*OPERADOR TERNÁRIO*//
+?	se for verdadeiro aparece esse
+:	se não for verdadeiro aparece esse
+
+
+.alert('mensagem de alerta aqui')-	aparecer mensagem de alerta ao abrir página
+
+.confirm('confimação')-	confirmação ao abrir página
+
+.prompt('mensagem pedindo algum dado')-	inserir algum dado
+
+var- 	variável
+
+	//*CONVERTER ELEMENTOS*//
+Number(elemento)
+	obs: o memsmo para Number.parseInt e Number.parseFloat
+String(elemento)
+	ou elemento.toString()
+
+	//*EVENTOS DOM*//
+mouseenter-	cursor ficar por cima do elemento
+mousemove-	cursor se mover dentro do elemento
+mousedown-	clicar e segurar
+mouseup-	soltar o botão do mouse
+click-		clique normal
+mouseout-	o mouse sair do elemento
