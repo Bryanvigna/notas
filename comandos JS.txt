@@ -77,3 +77,24 @@ mousedown-	clicar e segurar
 mouseup-	soltar o botão do mouse
 click-		clique normal
 mouseout-	o mouse sair do elemento
+
+	//*CONDIÇÕES*//
+if	(se-condição){
+true
+}
+else(ou-condição){
+false
+}
+switch(expressão){
+case valor1:
+break
+case valor2:
+assim vai...
+default:
+}
+obs:break-verificação de valor, sendo verdadeiro irá bater no break e vai finalizar a execução do switch
+
+	//*TIPOS DE CONDIÇÃO*//
+if{}- apenas if=condição simples
+else if{}- condição composta
+
